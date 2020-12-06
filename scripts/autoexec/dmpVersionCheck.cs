@@ -5,7 +5,7 @@
 // Alternatively, this can also be used to debug aspects as the Pack version
 // will be known to the server
 
-$DMP::Version = 4.5;
+$DMP::Version = 4.6;
 
 // Client Only
 addMessageCallback('MsgDMPVer', DMPReturn);
