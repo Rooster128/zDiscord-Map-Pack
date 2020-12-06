@@ -1,5 +1,3 @@
-//Adds Custom Sjapesto the editor
-
 package AddShapes
 {
    function Creator::init(%this){
@@ -30,3 +28,5 @@ $CSObjects[$CSObjCount++] = "Misc TaoBook rst-taobook.dts";
 $CSObjects[$CSObjCount++] = "Misc TCMug rst-TCmug.dts";
 $CSObjects[$CSObjCount++] = "Misc TNMug rst-TNmug.dts";
 $CSObjects[$CSObjCount++] = "Misc Turtle rst-turtle.dts";
+$CSObjects[$CSObjCount++] = "Misc Samifin rst-samifin.dts";
+$CSObjects[$CSObjCount++] = "Misc ChocoTaco rst-chocotaco.dts";
