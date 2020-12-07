@@ -1242,15 +1242,3 @@ new SimGroup(MissionGroup) {
 	};
 };
 //--- OBJECT WRITE END ---
-
-package SimpleInvinEquip {
-function StaticShapeData::damageObject(%data, %targetObject, %sourceObject, %position, %amount, %damageType)
-{
-   if( $CurrentMission $= "!Simple2on2" && %targetObject.invincible )
-      return;
-
-   parent::damageObject(%data, %targetObject, %sourceObject, %position, %amount, %damageType);
-}
-};
-
-activatePackage(SimpleInvinEquip);

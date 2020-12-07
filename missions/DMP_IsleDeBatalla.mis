@@ -2228,10 +2228,6 @@ new SimGroup(MissionGroup) {
 		Target = "-1";
 		holo = "0";
 	};
-	new SimGroup() {
-
-		powerCount = "0";
-	};
 	new InteriorInstance(InteriorInstance) {
 		position = "927.302 677.982 182.936";
 		rotation = "0 0 1 142.758";

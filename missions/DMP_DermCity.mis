@@ -3380,15 +3380,3 @@ new SimGroup(MissionGroup) {
 	};
 };
 //--- OBJECT WRITE END ---
-
-package DermCityInvinEquip {
-function StaticShapeData::damageObject(%data, %targetObject, %sourceObject, %position, %amount, %damageType)
-{
-   if( $CurrentMission $= "!DermCity" && %targetObject.invincible )
-      return;
-
-   parent::damageObject(%data, %targetObject, %sourceObject, %position, %amount, %damageType);
-}
-};
-
-activatePackage(DermCityInvinEquip);

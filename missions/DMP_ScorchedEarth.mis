@@ -3893,9 +3893,5 @@ new SimGroup(MissionGroup) {
 			};
 		};
 	};
-	new SimGroup() {
-
-		powerCount = "0";
-	};
 };
 //--- OBJECT WRITE END ---
