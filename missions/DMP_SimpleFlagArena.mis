@@ -14,7 +14,7 @@
 //--- OBJECT WRITE BEGIN ---
 new SimGroup(MissionGroup) {
 
-	CTF_timeLimit = "10";
+	CTF_timeLimit = "25";
 	powerCount = "0";
 	musicTrack = "badlands";
 	cdTrack = "2";
